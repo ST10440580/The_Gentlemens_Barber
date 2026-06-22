@@ -1,0 +1,7 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp" android:height="24dp"
+    android:viewportWidth="24" android:viewportHeight="24">
+    <!-- Scissors shape -->
+    <path android:fillColor="#111111"
+        android:pathData="M6.5,4A2.5,2.5 0 1,0 9,6.5 2.5,2.5 0 0,0 6.5,4zM6.5,13A2.5,2.5 0 1,0 9,15.5 2.5,2.5 0 0,0 6.5,13zM14,4l-4.5,8 4.5,8h2l-4.5,-8 4.5,-8h-2zM17.5,4A2.5,2.5 0 1,0 20,6.5 2.5,2.5 0 0,0 17.5,4z"/>
+</vector>
