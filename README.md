@@ -58,7 +58,7 @@ Gentlemen’s Barber was developed to improve customer experience for the barber
 - Allowing staff and admins to manage services and schedules efficiently.  
 - Giving customers visibility into their spending habits.
 
-## For more any inquiries or issues with the app please contact our team:
+## For any inquiries or issues with the app please contact our team:
 - ST10449136@rcconnect.edu.za – Sibongile Nhlapo 
 - ST10447508@rcconnect.edu.za - Natasha Mvundlela 
 - ST10349188@rcconnect.edu.za - Molebogeng Thupi 
