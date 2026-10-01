@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "837554151313",
+    "project_id": "thegentlemen-sbar",
+    "storage_bucket": "thegentlemen-sbar.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837554151313:android:919f285f5354356f844430",
+        "android_client_info": {
+          "package_name": "com.example.thegentlemensbar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBceoCExF8pRVzOjWz0-WzyuduqbmdnSU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
