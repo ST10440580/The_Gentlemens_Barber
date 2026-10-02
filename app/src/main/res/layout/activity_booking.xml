@@ -7,7 +7,6 @@
     android:gravity="center"
     android:background="@drawable/glass_background">
 
-    <!-- Title -->
     <TextView
         android:id="@+id/bookingTitle"
         android:layout_width="match_parent"
@@ -19,14 +18,12 @@
         android:layout_marginBottom="20dp"
         android:textColor="@color/black"/>
 
-    <!-- Card container -->
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardCornerRadius="16dp"
         app:cardElevation="8dp"
-        android:layout_margin="8dp"
-        android:background="#FFFFFF">
+        android:layout_margin="8dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -34,24 +31,34 @@
             android:orientation="vertical"
             android:padding="20dp">
 
-            <!-- Service Selection -->
             <Spinner
                 android:id="@+id/serviceSpinner"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
-                android:layout_marginBottom="20dp"/>
+                android:layout_marginBottom="12dp"/>
 
-            <!-- Date Picker -->
+            <Spinner
+                android:id="@+id/staffSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="12dp"/>
+
             <Button
                 android:id="@+id/dateBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Select Date"
-                android:layout_marginBottom="12dp"
+                android:layout_marginBottom="8dp"
                 android:backgroundTint="@color/black"
                 android:textColor="@android:color/white"/>
 
-            <!-- Time Picker -->
+            <TextView
+                android:id="@+id/infoText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:layout_marginBottom="8dp"/>
+
             <Button
                 android:id="@+id/timeBtn"
                 android:layout_width="match_parent"
@@ -61,7 +68,6 @@
                 android:backgroundTint="@color/black"
                 android:textColor="@android:color/white"/>
 
-            <!-- Confirm Booking -->
             <Button
                 android:id="@+id/confirmBtn"
                 android:layout_width="match_parent"
