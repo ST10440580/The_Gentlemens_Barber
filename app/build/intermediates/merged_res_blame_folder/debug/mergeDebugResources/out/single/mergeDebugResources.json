@@ -1,318 +1,342 @@
 [
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/layout_activity_cart.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/layout/activity_cart.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/layout_activity_login.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/layout/activity_login.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\ic_add.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_booking.jpg.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/booking.jpg"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_facial.jpg.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\facial.jpg"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/layout_activity_splash.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/layout/activity_splash.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_haircut.jpg.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\haircut.jpg"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/layout_activity_checkout.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/layout/activity_checkout.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_hottowel_shave.jpg.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\hottowel_shave.jpg"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_shaving_cream.png.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/shaving_cream.png"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_services.jpg.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/services.jpg"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\layout_activity_booking.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\layout\\activity_booking.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_ic_phone.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/ic_phone.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_ic_beard.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\ic_beard.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/mipmap-hdpi_barber_logo.png.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/mipmap-hdpi/barber_logo.png"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_ic_services.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\ic_services.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_circle_mask.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/circle_mask.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_hair_wax.png.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\hair_wax.png"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_ic_remove.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/ic_remove.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_ic_appointment.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/ic_appointment.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_ic_remove.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\ic_remove.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_ic_profile.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\ic_profile.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_ic_menu.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/ic_menu.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\layout_activity_checkout.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\layout\\activity_checkout.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\layout_activity_staff_dashboard.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\layout\\activity_staff_dashboard.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/layout_activity_products.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/layout/activity_products.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_barber_cape.png.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\barber_cape.png"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_ic_razor.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/ic_razor.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\layout_activity_product_detail.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\layout\\activity_product_detail.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_quantity_button.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/quantity_button.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_ic_back.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\ic_back.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_ic_delete.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/ic_delete.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_facial_cleanser.png.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\facial_cleanser.png"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.example.thegentlemensbar.app-debug-39:/layout_activity_contact.xml.flat",
+        "source": "com.example.thegentlemensbar.app-main-41:/layout/activity_contact.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/layout_activity_product_detail.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/layout/activity_product_detail.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_beard_balm.png.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\beard_balm.png"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/layout_activity_register.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/layout/activity_register.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_payments.jpg.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\payments.jpg"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_ic_services.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/ic_services.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_ic_profile.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/ic_profile.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\layout_item_booking.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\layout\\item_booking.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_beard_balm.png.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/beard_balm.png"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.example.thegentlemensbar.app-debug-39:/layout_activity_about.xml.flat",
+        "source": "com.example.thegentlemensbar.app-main-41:/layout/activity_about.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_barber_logo.png.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/barber_logo.png"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\layout\\activity_splash.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_shave.jpg.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/shave.jpg"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/layout_activity_services.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/layout/activity_services.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_ic_phone.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\ic_phone.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_ic_back.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/ic_back.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/layout_activity_payment_history.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/layout/activity_payment_history.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_ic_products.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\ic_products.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_facial.jpg.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/facial.jpg"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_ic_razor.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\ic_razor.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_glass_background.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/glass_background.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\mipmap-hdpi_barber_logo.png.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\mipmap-hdpi\\barber_logo.png"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/layout_activity_booking.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/layout/activity_booking.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_ic_payments.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\ic_payments.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/layout_activity_staff_dashboard.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/layout/activity_staff_dashboard.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_ic_email.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/ic_email.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_beard_oil.png.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\beard_oil.png"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_ic_menu.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\ic_menu.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_barber_cape.png.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/barber_cape.png"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/layout_activity_payments.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/layout/activity_payments.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_ic_lock.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\ic_lock.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_ic_beard.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/ic_beard.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_ic_cart.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\ic_cart.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_ic_lock.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/ic_lock.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\layout\\activity_register.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_ic_payments.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/ic_payments.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/layout_activity_main.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/layout/activity_main.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\layout_activity_payment_history.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\layout\\activity_payment_history.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_haircut.jpg.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/haircut.jpg"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_quantity_button.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\quantity_button.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_barber_logo.png.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\barber_logo.png"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\layout_item_service.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\layout\\item_service.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/layout_item_cart.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/layout/item_cart.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\layout_activity_cart.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\layout\\activity_cart.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/layout_activity_my_bookings.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/layout/activity_my_bookings.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_backgroundimage.jpg.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\backgroundimage.jpg"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\layout_activity_payments.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\layout\\activity_payments.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/layout_activity_welcome.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/layout/activity_welcome.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_circle_mask.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\circle_mask.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_payments.jpg.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/payments.jpg"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_ic_booking.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\ic_booking.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/layout_item_staff_booking.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/layout/item_staff_booking.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_backgroundimage.jpg.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/backgroundimage.jpg"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\ic_person.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_ic_person.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/ic_person.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_gradient_overlay.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\gradient_overlay.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_glass_background.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\glass_background.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_btn_primary.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/btn_primary.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\layout\\activity_settings.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/layout_item_booking.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/layout/item_booking.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\layout_activity_services.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\layout\\activity_services.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_ic_products.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/ic_products.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_cart_badge.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\cart_badge.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_ic_booking.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/ic_booking.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_booking.jpg.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\booking.jpg"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_beard_oil.png.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/beard_oil.png"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_ic_appointment.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\ic_appointment.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_gradient_overlay.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/gradient_overlay.xml"
+        "merged": "com.example.thegentlemensbar.app-debug-39:/layout_activity_add_card.xml.flat",
+        "source": "com.example.thegentlemensbar.app-main-41:/layout/activity_add_card.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_ic_scissors.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/ic_scissors.xml"
+        "merged": "com.example.thegentlemensbar.app-debug-39:/layout_activity_saved_cards.xml.flat",
+        "source": "com.example.thegentlemensbar.app-main-41:/layout/activity_saved_cards.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_services.jpg.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\services.jpg"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/xml_backup_rules.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\layout_item_cart.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\layout\\item_cart.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\layout_activity_my_bookings.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\layout\\activity_my_bookings.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_clippers.png.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\clippers.png"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_hottowel_shave.jpg.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/hottowel_shave.jpg"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_ic_scissors.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\ic_scissors.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_hair_wax.png.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/hair_wax.png"
+        "merged": "com.example.thegentlemensbar.app-debug-39:/layout_item_card.xml.flat",
+        "source": "com.example.thegentlemensbar.app-main-41:/layout/item_card.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_ic_add.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/ic_add.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_shaving_cream.png.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\shaving_cream.png"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_cart_badge.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/cart_badge.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_conditioner.png.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\conditioner.png"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_ic_cart.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/ic_cart.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\layout_item_product.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\layout\\item_product.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_facial_cleanser.png.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/facial_cleanser.png"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/layout_item_product.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/layout/item_product.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_btn_primary.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\btn_primary.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/layout_item_service.xml.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/layout/item_service.xml"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_conditioner.png.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/conditioner.png"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\layout_activity_welcome.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\layout\\activity_welcome.xml"
     },
     {
-        "merged": "com.example.thegentlemensbar.app-debug-49:/drawable_clippers.png.flat",
-        "source": "com.example.thegentlemensbar.app-main-51:/drawable/clippers.png"
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\layout_item_staff_booking.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\layout\\item_staff_booking.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_ic_email.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\ic_email.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\layout_activity_products.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\layout\\activity_products.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-debug-39:\\drawable_shave.jpg.flat",
+        "source": "C:\\Users\\Student\\.gradle\\daemon\\9.3.1\\com.example.thegentlemensbar.app-main-41:\\drawable\\shave.jpg"
     }
 ]

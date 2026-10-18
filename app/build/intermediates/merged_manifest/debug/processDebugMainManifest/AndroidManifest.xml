@@ -29,8 +29,25 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/barber_logo"
         android:supportsRtl="true"
-        android:testOnly="true"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        android:theme="@style/Theme.TheGentlemensBar" >
+        <activity
+            android:name="com.example.thegentlemensbar.AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.thegentlemensbar.ContactActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.thegentlemensbar.SavedCardsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.thegentlemensbar.AddCardActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.thegentlemensbar.ProfileSettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.thegentlemensbar.Settings"
+            android:exported="false" />
         <activity
             android:name="com.example.thegentlemensbar.StaffDashboard"
             android:exported="false" />
@@ -128,6 +145,9 @@
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"

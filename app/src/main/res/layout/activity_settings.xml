@@ -175,18 +175,6 @@
                         android:background="?attr/selectableItemBackground"/>
 
                     <TextView
-                        android:id="@+id/tippingDefaultsBtn"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:text="Tipping Defaults"
-                        android:gravity="center_vertical"
-                        android:paddingLeft="16dp"
-                        android:paddingRight="16dp"
-                        android:clickable="true"
-                        android:focusable="true"
-                        android:background="?attr/selectableItemBackground"/>
-
-                    <TextView
                         android:id="@+id/membershipStatusBtn"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"

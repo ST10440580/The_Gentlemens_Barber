@@ -12,6 +12,12 @@
         android:roundIcon="@mipmap/barber_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.TheGentlemensBar">
+
+        <activity android:name=".AboutActivity" android:exported="false" />
+        <activity android:name=".ContactActivity" android:exported="false" />
+        <activity android:name=".SavedCardsActivity" android:exported="false" />
+        <activity android:name=".AddCardActivity" android:exported="false" />
+
         <activity
             android:name=".ProfileSettingsActivity"
             android:exported="false" />
@@ -41,7 +47,6 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
