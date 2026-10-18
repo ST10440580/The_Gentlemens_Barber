@@ -16,20 +16,22 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/backgroundimage"
-            android:scaleType="centerCrop"/>
+            android:scaleType="centerCrop"
+            android:contentDescription="Welcome Background"/>
 
-        <!-- Gradient overlay -->
+        <!-- Semi-transparent overlay for better logo visibility -->
         <View
             android:layout_width="match_parent"
-            android:layout_height="357dp"
-/>
+            android:layout_height="match_parent"
+            android:background="#40000000"/>
 
         <!-- Logo -->
         <ImageView
             android:layout_width="140dp"
             android:layout_height="140dp"
             android:src="@drawable/barber_logo"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:contentDescription="App Logo"/>
     </FrameLayout>
 
     <!-- Content -->
@@ -75,9 +77,9 @@
                 <Button
                     android:id="@+id/registerBtn"
                     android:layout_width="match_parent"
-                    android:layout_height="70dp"
+                    android:layout_height="60dp"
                     android:layout_marginBottom="20dp"
-                    android:background="@color/black"
+                    android:backgroundTint="@color/black"
                     android:text="Register"
                     android:textAllCaps="false"
                     android:textColor="@color/white" />
@@ -86,8 +88,8 @@
                 <Button
                     android:id="@+id/loginBtn"
                     android:layout_width="match_parent"
-                    android:layout_height="70dp"
-                    android:background="@color/black"
+                    android:layout_height="60dp"
+                    android:backgroundTint="@color/black"
                     android:text="Login"
                     android:textAllCaps="false"
                     android:textColor="@color/white" />
