@@ -1,5 +1,5 @@
-com.example.thegentlemensbar.test.app-core-1.6.1-0 C:\Users\Student\.gradle\caches\9.3.1\transforms\77ae68d0e1f38a2b73c2c734798c1bbb\workspace\transformed\core-1.6.1\res
-com.example.thegentlemensbar.test.app-updated_navigation_xml-1 C:\Users\Student\StudioProjects\The_Gentlemens_Barber\app\build\generated\updated_navigation_xml\debugAndroidTest
-com.example.thegentlemensbar.test.app-packageDebugAndroidTestResources-2 C:\Users\Student\StudioProjects\The_Gentlemens_Barber\app\build\intermediates\incremental\debugAndroidTest\packageDebugAndroidTestResources\merged.dir
-com.example.thegentlemensbar.test.app-packageDebugAndroidTestResources-3 C:\Users\Student\StudioProjects\The_Gentlemens_Barber\app\build\intermediates\incremental\debugAndroidTest\packageDebugAndroidTestResources\stripped.dir
-com.example.thegentlemensbar.test.app-debugAndroidTest-4 C:\Users\Student\StudioProjects\The_Gentlemens_Barber\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+com.example.thegentlemensbar.test.app-core-1.6.1-0 C:\Users\Student\.gradle\caches\9.3.1\transforms\307df455ea15ae47d2564bad4c235eca\workspace\transformed\core-1.6.1\res
+com.example.thegentlemensbar.test.app-updated_navigation_xml-1 C:\Users\Student\AndroidStudioProjects\The_Gentlemens_Barber\app\build\generated\updated_navigation_xml\debugAndroidTest
+com.example.thegentlemensbar.test.app-packageDebugAndroidTestResources-2 C:\Users\Student\AndroidStudioProjects\The_Gentlemens_Barber\app\build\intermediates\incremental\debugAndroidTest\packageDebugAndroidTestResources\merged.dir
+com.example.thegentlemensbar.test.app-packageDebugAndroidTestResources-3 C:\Users\Student\AndroidStudioProjects\The_Gentlemens_Barber\app\build\intermediates\incremental\debugAndroidTest\packageDebugAndroidTestResources\stripped.dir
+com.example.thegentlemensbar.test.app-debugAndroidTest-4 C:\Users\Student\AndroidStudioProjects\The_Gentlemens_Barber\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
