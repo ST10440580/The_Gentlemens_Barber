@@ -4,7 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.TextView
-import androidx.appcompat.app.AlertDialog
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import java.util.Locale
 
@@ -43,19 +43,12 @@ class MainActivity : AppCompatActivity() {
         findViewById<ImageButton>(R.id.productsBtn).setOnClickListener {
             startActivity(Intent(this, Products::class.java))
         }
+        
+        // Final check: This button MUST open Settings
         findViewById<ImageButton>(R.id.profileBtn).setOnClickListener {
-            AlertDialog.Builder(this)
-                .setTitle("Log out?")
-                .setPositiveButton("Log out") { _, _ ->
-                    FirebaseRepo.logout()
-                    getSharedPreferences("UserPref", MODE_PRIVATE).edit().clear().apply()
-                    startActivity(
-                        Intent(this, WelcomeActivity::class.java)
-                            .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
-                    )
-                }
-                .setNegativeButton("Cancel", null)
-                .show()
+            Toast.makeText(this, "Opening Settings...", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, Settings::class.java)
+            startActivity(intent)
         }
     }
 

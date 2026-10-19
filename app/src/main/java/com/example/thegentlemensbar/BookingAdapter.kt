@@ -36,7 +36,8 @@ class BookingsAdapter(
         holder.manageBtn.visibility = if (canCancel) View.VISIBLE else View.GONE
 
         holder.manageBtn.setOnClickListener {
-            val pos = holder.bindingAdapterPosition
+            // Changed bindingAdapterPosition to adapterPosition to resolve the compilation error
+            val pos = holder.adapterPosition
             if (pos == RecyclerView.NO_POSITION) return@setOnClickListener
             FirebaseRepo.cancelBooking(bookings[pos]) { ok ->
                 if (ok) {

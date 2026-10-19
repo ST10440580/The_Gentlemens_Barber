@@ -16,6 +16,7 @@ object FirebaseRepo {
     private val db get() = FirebaseFirestore.getInstance()
 
     val currentUid: String? get() = auth.currentUser?.uid
+    val currentUserEmail: String? get() = auth.currentUser?.email
 
     // ------------------------------------------------------------ AUTH
     fun register(
@@ -65,7 +66,60 @@ object FirebaseRepo {
             .addOnFailureListener { Log.e(TAG, "loadProfile", it); onResult(null) }
     }
 
+    fun updateDisplayName(newName: String, onResult: (Boolean) -> Unit) {
+        val uid = currentUid ?: return onResult(false)
+        db.collection("users").document(uid).update("fullName", newName)
+            .addOnSuccessListener { onResult(true) }
+            .addOnFailureListener { onResult(false) }
+    }
+
+    fun updatePassword(newPassword: String, onResult: (Boolean, String?) -> Unit) {
+        auth.currentUser?.updatePassword(newPassword)
+            ?.addOnSuccessListener { onResult(true, null) }
+            ?.addOnFailureListener { onResult(false, it.message) }
+            ?: onResult(false, "No user logged in")
+    }
+
     fun logout() = auth.signOut()
+
+    // -------------------------------------------------------- CARDS
+    fun saveCard(card: CardModel, onResult: (Boolean) -> Unit) {
+        val uid = currentUid ?: return onResult(false)
+        val cardData = hashMapOf(
+            "cardNumber" to card.cardNumber,
+            "expiry" to card.expiry,
+            "holderName" to card.holderName,
+            "brand" to card.brand,
+            "createdAt" to FieldValue.serverTimestamp()
+        )
+        db.collection("users").document(uid).collection("cards").add(cardData)
+            .addOnSuccessListener { onResult(true) }
+            .addOnFailureListener { onResult(false) }
+    }
+
+    fun getSavedCards(onResult: (List<CardModel>) -> Unit) {
+        val uid = currentUid ?: return onResult(emptyList())
+        db.collection("users").document(uid).collection("cards").get()
+            .addOnSuccessListener { s ->
+                onResult(s.documents.map {
+                    CardModel(
+                        id = it.id,
+                        cardNumber = it.getString("cardNumber") ?: "",
+                        expiry = it.getString("expiry") ?: "",
+                        holderName = it.getString("holderName") ?: "",
+                        brand = it.getString("brand") ?: "Visa"
+                    )
+                })
+            }
+            .addOnFailureListener { onResult(emptyList()) }
+    }
+
+    fun deleteCard(cardId: String, onResult: (Boolean) -> Unit) {
+        val uid = currentUid ?: return onResult(false)
+        db.collection("users").document(uid).collection("cards").document(cardId).delete()
+            .addOnSuccessListener { onResult(true) }
+            .addOnFailureListener { onResult(false) }
+    }
 
     // -------------------------------------------------------- SERVICES / STAFF
     private fun DocumentSnapshot.toService() = ServiceModel(

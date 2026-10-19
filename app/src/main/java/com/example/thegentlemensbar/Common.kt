@@ -55,6 +55,14 @@ data class PaymentModel(
     val paidMillis: Long
 )
 
+data class CardModel(
+    val id: String = "",
+    val cardNumber: String = "",
+    val expiry: String = "",
+    val holderName: String = "",
+    val brand: String = "Visa"
+)
+
 fun saveProfileToPrefs(context: Context, profile: UserProfile) {
     context.getSharedPreferences("UserPref", Context.MODE_PRIVATE)
         .edit().putString("USERNAME", profile.fullName).apply()
