@@ -9,7 +9,7 @@ Gentlemen’s Barber is a mobile application designed to modernize barber shop s
 
 ### Booking System
 - Customers select a service, barber, and time.  
-- The system checks availability and confirms booking.  
+- The system checks availability and confirms booking via Firebase.  
 - Bookings can be rescheduled or cancelled.  
 
 ### Services
@@ -48,7 +48,9 @@ Customers can purchase grooming products directly within the app. Available item
 ## Tech Stack we implemented in the application
 - **Frontend:** Android XML layouts with Material Design.  
 - **Backend:** Kotlin with SQLite database(Firebase will soon be implemented connecting the official website with the application).  
-- **Persistence:** SharedPreferences for user profile data.  
+- Kotlin with Firebase Firestore and Authentication.
+- **Persistence:** Firebase for real-time data and SharedPreferences for local user settings.
+- SharedPreferences for user profile data.  
 - **Reporting:** PDF generation for admin reports.  
 
 ## Our end goal with this app
