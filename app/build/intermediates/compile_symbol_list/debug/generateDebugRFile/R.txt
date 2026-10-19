@@ -178,7 +178,6 @@ int id staffTitle 0x0
 int id staffWalkInBtn 0x0
 int id tagline 0x0
 int id timeBtn 0x0
-int id tippingDefaultsBtn 0x0
 int id topAppBar 0x0
 int id totalSpendCard 0x0
 int id totalSpendText 0x0

@@ -4,7 +4,7 @@
             "outputFile": "com.example.thegentlemensbar.app-mergeDebugResources-37:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Student\\.gradle\\caches\\9.3.1\\transforms\\3cce0a55d56befac65ea14e013b6dd26\\workspace\\transformed\\play-services-auth-20.7.0\\res\\values-watch-v20\\values.xml",
+                    "source": "C:\\Users\\Student\\.gradle\\caches\\9.3.1\\transforms\\6a16495ebcef2be4ed551c5f6cce4e9e\\workspace\\transformed\\play-services-auth-20.7.0\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Student\\.gradle\\caches\\9.3.1\\transforms\\e8d514c600875df62c8a3aa508a963f8\\workspace\\transformed\\appcompat-1.7.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\Student\\.gradle\\caches\\9.3.1\\transforms\\722336257753a2449b939abf14eadc5c\\workspace\\transformed\\appcompat-1.7.0\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
