@@ -69,10 +69,25 @@
                     android:background="@drawable/glass_background"
                     android:drawableStart="@drawable/ic_lock"
                     android:paddingStart="12dp"
-                    android:layout_marginBottom="24dp"
+                    android:layout_marginBottom="8dp"
                     android:inputType="textPassword"/>
 
+
                 <!-- Login Button -->
+
+                <TextView
+                    android:id="@+id/forgotPasswordText"
+                    android:layout_width="233dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="16dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:padding="14dp"
+                    android:text="Forgot password?"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/loginBtn"
                     android:text="Login"

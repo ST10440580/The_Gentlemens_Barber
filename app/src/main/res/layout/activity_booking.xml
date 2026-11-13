@@ -68,6 +68,16 @@
                 android:backgroundTint="@color/black"
                 android:textColor="@android:color/white"/>
 
+            <TextView
+                android:id="@+id/bookingSummary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:padding="12dp"
+                android:background="@drawable/bg_time_block"
+                android:textSize="14sp"
+                android:textColor="@color/black"/>
+
             <Button
                 android:id="@+id/confirmBtn"
                 android:layout_width="match_parent"

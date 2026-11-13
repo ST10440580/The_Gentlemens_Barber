@@ -65,33 +65,30 @@
         </LinearLayout>
 
         <!-- Price and Add to Cart -->
-        <LinearLayout
+        <TextView
+            android:id="@+id/productPrice"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center_vertical"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="8dp"
+            android:text="R99.99"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:ellipsize="end"/>
 
-            <TextView
-                android:id="@+id/productPrice"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="R99.99"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/addToCartBtn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:text="Add to cart"
+            android:textSize="13sp"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"/>
 
-            <Button
-                android:id="@+id/addToCartBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="36dp"
-                android:text="Add to Cart"
-                android:backgroundTint="@color/black"
-                android:textColor="@color/white"
-                android:textSize="12sp"
-                android:paddingStart="12dp"
-                android:paddingEnd="12dp"/>
-        </LinearLayout>
+
+
+
     </LinearLayout>
 </androidx.cardview.widget.CardView>
