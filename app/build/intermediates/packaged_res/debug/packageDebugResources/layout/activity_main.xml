@@ -1,539 +1,539 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F5F5">
+    android:orientation="vertical"
+    android:background="@color/white">
 
-    <!-- Top App Bar -->
-    <com.google.android.material.appbar.MaterialToolbar
-        android:id="@+id/topAppBar"
+    <!-- Top bar -->
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/white"
-        android:elevation="4dp"
-        android:padding="8dp"
-        app:titleTextColor="@color/black">
+        android:layout_height="60dp">
 
-        <!-- Menu button aligned left -->
         <ImageButton
             android:id="@+id/menuBtn"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:src="@drawable/ic_menu"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/ic_nav_menu"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:contentDescription="Menu"
-            app:tint="@color/black"
-            android:layout_gravity="start"/>
+            app:tint="@color/black"/>
 
-        <!-- Logo and Title next to menu -->
-        <LinearLayout
+        <TextView
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:gravity="center_vertical"
-            android:layout_gravity="start"
-            android:layout_marginStart="8dp">
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Gentlemen’s Barber"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-black"/>
 
-            <ImageView
-                android:id="@+id/dashboardLogo"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:src="@drawable/barber_logo"
-                android:contentDescription="Gentlemen's Barber Logo"
-                android:layout_marginEnd="8dp"/>
-
-            <TextView
-                android:id="@+id/appTitle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Gentlemen's Barber"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
-        </LinearLayout>
-
-        <!-- Profile button aligned right -->
         <ImageButton
             android:id="@+id/profileBtn"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:src="@drawable/ic_profile"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            android:contentDescription="Profile"
-            app:tint="@color/black"
-            android:layout_gravity="end"/>
-    </com.google.android.material.appbar.MaterialToolbar>
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginEnd="16dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_nav_user"
+            android:background="@drawable/bg_circle_light"
+            android:contentDescription="Settings"
+            app:tint="@color/black"/>
+    </FrameLayout>
 
-    <!-- Welcome Card styled like loyalty card -->
-    <androidx.cardview.widget.CardView
-        android:id="@+id/welcomeCard"
+    <View
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:cardCornerRadius="20dp"
-        app:cardElevation="12dp"
-        android:layout_margin="16dp"
-        android:layout_below="@id/topAppBar">
+        android:layout_height="1dp"
+        android:background="#E8E8E8"/>
 
-        <!-- Gradient background container -->
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:background="@color/black"
-            android:padding="16dp">
-
-            <!-- Title -->
-            <TextView
-                android:id="@+id/cardTitle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Gentlemens Card"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                android:textColor="@android:color/white"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"/>
-
-            <!-- User Name -->
-            <TextView
-                android:id="@+id/welcomeUser"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text=""
-                android:textSize="28sp"
-                android:textStyle="bold"
-                android:textColor="@android:color/white"
-                android:layout_centerInParent="true"/>
-
-            <!-- Rewards clickable line -->
-            <TextView
-                android:id="@+id/rewardsText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="You are officially a Gentlemen's Barber Member"
-                android:textSize="14sp"
-                android:textColor="@color/beige"
-                android:layout_below="@id/welcomeUser"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="8dp"/>
-
-        </RelativeLayout>
-    </androidx.cardview.widget.CardView>
-
-    <!-- Dashboard Boards -->
-    <LinearLayout
-        android:id="@+id/dashboardBoards"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_below="@id/welcomeCard"
-        android:layout_marginTop="16dp"
-        android:padding="8dp">
-
-        <!-- Upcoming Appointments -->
-        <androidx.cardview.widget.CardView
-            android:id="@+id/upcomingAppointmentsCard"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            app:cardCornerRadius="16dp"
-            app:cardElevation="8dp"
-            android:layout_margin="8dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="16dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Upcoming Appointments"
-                    android:textColor="@color/black"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/upcomingAppointmentsText"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:text="You have 0 appointments"
-                    android:textColor="#666666"
-                    android:textSize="14sp" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <!-- Total Spend -->
-        <androidx.cardview.widget.CardView
-            android:id="@+id/totalSpendCard"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            app:cardCornerRadius="16dp"
-            app:cardElevation="8dp"
-            android:layout_margin="8dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="116dp"
-                android:orientation="vertical"
-                android:padding="16dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Total Spend"
-                    android:textColor="@color/black"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/totalSpendText"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:text="R0"
-                    android:textColor="#666666"
-                    android:textSize="14sp" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-    </LinearLayout>
-
-    <!-- Services Title -->
-    <TextView
-        android:id="@+id/servicesTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Our Services"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:layout_below="@id/dashboardBoards"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"/>
-
-    <!-- Scrollable Services -->
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@id/servicesTitle"
-        android:layout_above="@id/bottomNav"
-        android:fillViewport="true">
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:overScrollMode="never">
 
-        <androidx.cardview.widget.CardView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="12dp"
-            android:layout_margin="16dp"
-            android:padding="12dp">
+            android:orientation="vertical"
+            android:padding="16dp">
 
-            <GridLayout
-                android:id="@+id/servicesGrid"
+            <!-- Membership card -->
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:columnCount="2"
-                android:alignmentMode="alignMargins"
-                android:useDefaultMargins="true"
-                android:gravity="center">
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@drawable/bg_black_card">
 
-                <!-- Facial -->
-                <LinearLayout
-                    android:layout_width="0dp"
+                <TextView
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_columnWeight="1"
-                    android:orientation="vertical"
-                    android:padding="8dp">
+                    android:text="YOUR MEMBERSHIP"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.1"
+                    android:textColor="#BBBBBB"/>
 
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="120dp"
-                        android:src="@drawable/facial"
-                        android:scaleType="centerCrop"
-                        android:contentDescription="Facial Service"/>
+                <TextView
+                    android:id="@+id/welcomeUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Welcome"
+                    android:textSize="26sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="sans-serif-black"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="14dp"
+                    android:background="#333333"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Gentlemen’s Card"
+                        android:textSize="14sp"
+                        android:textColor="#BBBBBB"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Facial"
-                        android:textSize="16sp"
+                        android:text="MEMBER"
+                        android:textSize="14sp"
                         android:textStyle="bold"
-                        android:textColor="@color/black"
-                        android:layout_marginTop="4dp"/>
-
-                    <Button
-                        android:id="@+id/bookFacialBtn"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Book Now"
-                        android:background="@color/black"
-                        android:textColor="@color/beige"
-                        android:layout_marginTop="8dp"/>
+                        android:letterSpacing="0.1"
+                        android:textColor="@color/white"/>
                 </LinearLayout>
+            </LinearLayout>
 
-                <!-- Haircut -->
+            <!-- Next visit -->
+            <LinearLayout
+                android:id="@+id/nextVisitCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="14dp"
+                android:background="@drawable/bg_outline_card"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:padding="12dp"
+                    android:src="@drawable/ic_nav_calendar"
+                    android:background="@drawable/bg_icon_square"
+                    app:tint="@color/black"/>
+
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_columnWeight="1"
-                    android:orientation="vertical"
-                    android:padding="8dp">
+                    android:layout_weight="1"
+                    android:layout_marginStart="14dp"
+                    android:orientation="vertical">
 
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="120dp"
-                        android:src="@drawable/haircut"
-                        android:scaleType="centerCrop"
-                        android:contentDescription="Haircut Service"/>
+                    <TextView
+                        android:id="@+id/nextVisitTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your next visit"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/nextVisitSubtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="No upcoming booking"
+                        android:textSize="14sp"
+                        android:textColor="#666666"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_arrow_right"
+                    android:background="@drawable/bg_black_rounded"
+                    app:tint="@color/white"/>
+            </LinearLayout>
+
+            <!-- Stats -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="6dp"
+                    android:orientation="vertical"
+                    android:padding="14dp"
+                    android:background="@drawable/bg_outline_card">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Haircut"
-                        android:textSize="16sp"
+                        android:text="UPCOMING"
+                        android:textSize="12sp"
                         android:textStyle="bold"
-                        android:textColor="@color/black"
-                        android:layout_marginTop="4dp"/>
+                        android:textColor="#666666"/>
 
-                    <Button
-                        android:id="@+id/bookHaircutBtn"
-                        android:layout_width="match_parent"
+                    <TextView
+                        android:id="@+id/upcomingCount"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Book Now"
-                        android:background="@color/black"
-                        android:textColor="@color/beige"
-                        android:layout_marginTop="8dp"/>
-                </LinearLayout>
-
-                <!-- Beard Trim -->
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_columnWeight="1"
-                    android:orientation="vertical"
-                    android:padding="8dp">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="120dp"
-                        android:src="@drawable/hottowel_shave"
-                        android:scaleType="centerCrop"
-                        android:contentDescription="Beard Trim Service"/>
+                        android:layout_marginTop="6dp"
+                        android:text="0"
+                        android:textSize="30sp"
+                        android:textColor="@color/black"
+                        android:fontFamily="sans-serif-black"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Beard Trim"
-                        android:textSize="16sp"
-                        android:textStyle="bold"
-                        android:textColor="@color/black"
-                        android:layout_marginTop="4dp"/>
-
-                    <Button
-                        android:id="@+id/bookBeardBtn"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Book Now"
-                        android:background="@color/black"
-                        android:textColor="@color/beige"
-                        android:layout_marginTop="8dp"/>
+                        android:text="appointments"
+                        android:textSize="13sp"
+                        android:textColor="#666666"/>
                 </LinearLayout>
 
-                <!-- Shave -->
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_columnWeight="1"
+                    android:layout_weight="1"
+                    android:layout_marginStart="6dp"
                     android:orientation="vertical"
-                    android:padding="8dp">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="120dp"
-                        android:src="@drawable/shave"
-                        android:scaleType="centerCrop"
-                        android:contentDescription="Shave Service"/>
+                    android:padding="14dp"
+                    android:background="@drawable/bg_outline_card">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Shave"
-                        android:textSize="16sp"
+                        android:text="TOTAL SPEND"
+                        android:textSize="12sp"
                         android:textStyle="bold"
-                        android:textColor="@color/black"
-                        android:layout_marginTop="4dp"/>
+                        android:textColor="#666666"/>
 
-                    <Button
-                        android:id="@+id/bookShaveBtn"
+                    <TextView
+                        android:id="@+id/totalSpendText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:text="R0"
+                        android:textSize="30sp"
+                        android:textColor="@color/black"
+                        android:fontFamily="sans-serif-black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="across your visits"
+                        android:textSize="13sp"
+                        android:textColor="#666666"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Popular services -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Popular services"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-black"/>
+
+                <TextView
+                    android:id="@+id/viewAllServices"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:padding="6dp"
+                    android:text="VIEW ALL  ›"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:clickable="true"
+                    android:focusable="true"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/serviceHaircut"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="6dp"
+                    android:orientation="vertical"
+                    android:padding="1dp"
+                    android:background="@drawable/bg_outline_card"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Book Now"
-                        android:background="@color/black"
-                        android:textColor="@color/beige"
-                        android:layout_marginTop="8dp"/>
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="13dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="110dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/haircut"
+                                android:contentDescription="Haircut"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="12dp"
+                                android:layout_marginTop="10dp"
+                                android:text="Haircut"
+                                android:textSize="16sp"
+                                android:textColor="@color/black"
+                                android:fontFamily="sans-serif-black"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="12dp"
+                                android:layout_marginTop="2dp"
+                                android:text="30 mins · R150"
+                                android:textSize="13sp"
+                                android:textColor="#555555"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
                 </LinearLayout>
-            </GridLayout>
-        </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:id="@+id/serviceFacial"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical"
+                    android:padding="1dp"
+                    android:background="@drawable/bg_outline_card"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="13dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="110dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/facial"
+                                android:contentDescription="Facial"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="12dp"
+                                android:layout_marginTop="10dp"
+                                android:text="Facial"
+                                android:textSize="16sp"
+                                android:textColor="@color/black"
+                                android:fontFamily="sans-serif-black"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="12dp"
+                                android:layout_marginTop="2dp"
+                                android:text="60 mins · R200"
+                                android:textSize="13sp"
+                                android:textColor="#555555"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
     </ScrollView>
 
+    <!-- Bottom navigation -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E8E8E8"/>
 
-    <!-- Bottom Navigation -->
     <LinearLayout
-        android:id="@+id/bottomNav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_alignParentBottom="true"
-        android:padding="12dp"
-        android:background="@color/white"
-        android:elevation="8dp"
-        android:weightSum="5">
+        android:background="@color/white">
 
-        <!-- Book Appointment -->
         <LinearLayout
+            android:id="@+id/navBook"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical"
-            android:gravity="center">
-
-            <ImageButton
-                android:id="@+id/bookAppointmentBtn"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:src="@drawable/ic_appointment"
-                android:background="?attr/selectableItemBackgroundBorderless"
-                android:contentDescription="Book Appointment"
-                app:tint="@color/black"
-                android:scaleType="fitCenter"
-                android:adjustViewBounds="true"/>
-
+            android:gravity="center"
+            android:paddingVertical="8dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_nav_calendar"
+                app:tint="@color/black"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
                 android:text="Book"
-                android:textSize="12sp"
-                android:textColor="#333333"
-                android:layout_marginTop="4dp"/>
+                android:textSize="11sp"
+                android:textColor="@color/black"/>
         </LinearLayout>
 
-        <!-- My Bookings -->
         <LinearLayout
+            android:id="@+id/navBookings"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical"
-            android:gravity="center">
-
-            <ImageButton
-                android:id="@+id/myBookingsBtn"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:src="@drawable/ic_booking"
-                android:background="?attr/selectableItemBackgroundBorderless"
-                android:contentDescription="My Bookings"
-                app:tint="@color/black"
-                android:scaleType="fitCenter"
-                android:adjustViewBounds="true"/>
-
+            android:gravity="center"
+            android:paddingVertical="8dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_nav_clock"
+                app:tint="@color/black"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
                 android:text="Bookings"
-                android:textSize="12sp"
-                android:textColor="#333333"
-                android:layout_marginTop="4dp"/>
+                android:textSize="11sp"
+                android:textColor="@color/black"/>
         </LinearLayout>
 
-        <!-- Services -->
         <LinearLayout
+            android:id="@+id/navServices"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical"
-            android:gravity="center">
-
-            <ImageButton
-                android:id="@+id/servicesBtn"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:src="@drawable/ic_services"
-                android:background="?attr/selectableItemBackgroundBorderless"
-                android:contentDescription="Services"
-                app:tint="@color/black"
-                android:scaleType="fitCenter"
-                android:adjustViewBounds="true"/>
-
+            android:gravity="center"
+            android:paddingVertical="8dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_nav_scissors"
+                app:tint="@color/black"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
                 android:text="Services"
-                android:textSize="12sp"
-                android:textColor="#333333"
-                android:layout_marginTop="4dp"/>
+                android:textSize="11sp"
+                android:textColor="@color/black"/>
         </LinearLayout>
 
-        <!-- Payments -->
         <LinearLayout
+            android:id="@+id/navPayments"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical"
-            android:gravity="center">
-
-            <ImageButton
-                android:id="@+id/paymentsBtn"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:src="@drawable/ic_payments"
-                android:background="?attr/selectableItemBackgroundBorderless"
-                android:contentDescription="Payments"
-                app:tint="@color/black"
-                android:scaleType="fitCenter"
-                android:adjustViewBounds="true"/>
-
+            android:gravity="center"
+            android:paddingVertical="8dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_nav_card"
+                app:tint="@color/black"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
                 android:text="Payments"
-                android:textSize="12sp"
-                android:textColor="#333333"
-                android:layout_marginTop="4dp"/>
+                android:textSize="11sp"
+                android:textColor="@color/black"/>
         </LinearLayout>
 
-
-        <!-- Products -->
         <LinearLayout
+            android:id="@+id/navProducts"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical"
-            android:gravity="center">
-
-            <ImageButton
-                android:id="@+id/productsBtn"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:src="@drawable/ic_products"
-                android:background="?attr/selectableItemBackgroundBorderless"
-                android:contentDescription="Payments"
-                app:tint="@color/black"
-                android:scaleType="fitCenter"
-                android:adjustViewBounds="true"/>
-
+            android:gravity="center"
+            android:paddingVertical="8dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_nav_bag"
+                app:tint="@color/black"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
                 android:text="Products"
-                android:textSize="12sp"
-                android:textColor="#333333"
-                android:layout_marginTop="4dp"/>
+                android:textSize="11sp"
+                android:textColor="@color/black"/>
         </LinearLayout>
     </LinearLayout>
-
-
-</RelativeLayout>
+</LinearLayout>
