@@ -5,7 +5,6 @@
 * **Mobile App GitHub Repository:** https://github.com/ST10440580/The_Gentlemens_Barber
 * **Companion Website GitHub Repository:** https://github.com/sibongilee/GentlemensBarWebsite
 * **Live Companion Website:** http://gentlemensbarwebsite.infinityfreeapp.com
-* **Video Demonstration (YouTube Unlisted):** *[Insert Molebogeng's YouTube Link Here]*
 
 ---
 
